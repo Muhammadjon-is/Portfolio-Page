@@ -1,0 +1,162 @@
+body {
+  margin: 0;
+  background-color: #111111;
+}
+.home {
+  height: auto;
+  /* border: 2px solid red; */
+  margin: auto;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 172px;
+  box-sizing: border-box;
+  background-color: #111111;
+  margin-right: 170px;
+}
+.myImage {
+  height: 85vh;
+
+  max-width: 100%;
+  border-radius: 20px;
+  margin-left: 40px;
+}
+.aboutMe {
+  max-width: 600px;
+  width: 100%;
+  /* border: 1px solid red;     */
+}
+
+.aboutMe h1:nth-child(1) {
+  text-transform: uppercase;
+  color: orange;
+  font-size: 60px;
+  font-family: Arial;
+  font-weight: 700;
+}
+
+.aboutMe h1:nth-child(2) {
+  text-transform: uppercase;
+  font-size: 60px;
+  font-weight: 700;
+  color: white;
+  text-indent: 33px;
+  margin-top: 10px;
+}
+
+.aboutMe .textMe {
+  font-size: 20px;
+  line-height: 35px;
+  color: white;
+  font-family: sans-serif;
+  margin-top: 25px;
+}
+
+.aboutMe button {
+  width: 250px;
+  height: 60px;
+  border-radius: 30px;
+  background: transparent;
+  border: 1px solid orange;
+  margin-top: 25px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 16px;
+  font-family: Arial, Helvetica;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.aboutMe button p a {
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  margin-top: 0;
+  margin-left: 20px;
+  width: 190px;
+}
+
+.aboutMe i {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  background-color: orange;
+  color: white;
+  line-height: 60px;
+  font-size: 22px;
+  margin-right: -7px;
+}
+.aboutMe button:hover {
+  background-color: orange;
+  color: white;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+/*  Navbar css */
+
+.navbar {
+  position: fixed;
+  top: 177px;
+  right: 50px;
+  background-color: #111111;
+}
+
+.navbar ul {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.navbar ul li {
+  /* height: 50px; */
+  margin: 25px 0;
+  list-style-type: none;
+}
+
+.navbar ul li a {
+  display: block;
+  height: 100%;
+  /* border: 1px solid red; */
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+  color: antiquewhite;
+  align-items: center;
+  padding: 5px;
+  box-sizing: border-box;
+  border-radius: 30px;
+  padding-right: 0;
+  /* color: #111111; */
+  transition: all 0.3s;
+}
+.navbar ul li a:hover {
+  background-color: orange;
+  color: white;
+}
+.navbar ul li a:hover i {
+  background-color: orange;
+
+  color: white;
+}
+.navbar ul li a:focus i {
+  background-color: orange;
+  color: white;
+}
+.navbar ul li a i {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: rgb(40, 41, 41);
+  text-align: center;
+  line-height: 50px;
+  margin-left: 10px;
+  /* background-color: orange; */
+}
+.navbar ul li a .activeIcon {
+  background-color: orange;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Portfolio page</title>
+  </head>
+  <body onload="Entire()">
+    <section>
+      <div class="home">
+        <img class="myImage" src="images/4.JPG" alt="" />
+        <div class="aboutMe">
+          <h1>- I am Muhammadjon</h1>
+          <h1>- Web developer - Ethical hacker</h1>
+          <p class="textMe">
+            I'm self-taught Front-End Developer, openminded, positive and
+            responsible person. I'm looking for a job with friendly and
+            interesting team in a good perspective company. Hope that will be
+            breathtaking and help me increase my skills and evolve because my
+            goal is to be better every day and learn new exciting technologies.
+            Whole Poland and also open for a remote job.
+          </p>
+        </div>
+        <!-- <div class="navbar"></div> -->
+        <div class="navbar">
+          <ul>
+            <li>
+              <a href="#"
+               onclick="Home()"  >Home <i class="fa-solid activeIcon fa-house-chimney"></i
+              ></a>
+            </li>
+            <li>
+              <a href="#" onclick="About()">About <i class="fa-solid fa-user"></i> </a>
+            </li>
+            <li>
+              <a href="#" onclick="Skills()" >Skills <i class="fa-solid fa-briefcase"></i></a>
+            </li>
+            <li>
+              <a href="#" onclick="Education()">Education <i class="fa-solid fa-address-card"></i></a>
+            </li>
+          </ul>
+        </div>
+        <!-- Navbar -->
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
